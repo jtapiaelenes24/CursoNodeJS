@@ -18,3 +18,5 @@ getText('./data/second.txt')
     .then(result => console.log(result))
     .catch(error => console.log(error))
 
+    // MINUTO 3:17:05 ASYNC/AWAIT
+
