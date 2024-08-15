@@ -7,6 +7,15 @@
 </head>
 <body>
     <h1>Hola Mundo desde el curso de nodeJS!</h1>
-    <!-- MINUTO 2:57:26 EVENT LOOP -->
+    <button id="btn">
+        click
+    </button>
+
+    <script>
+        const btn = document.querySelector('#btn')
+        btn.addEventListener('click', () => {
+            alert('Hello world!')
+        })
+    </script>
 </body>
 </html>
