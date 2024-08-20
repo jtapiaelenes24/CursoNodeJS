@@ -9,3 +9,5 @@ customEmitter.on('response', (data, secondData) => {
 })
 
 customEmitter.emit('response', 'Hello World', [1, 2, 3])
+
+// MINUTO 3:42:47 STREAMS
